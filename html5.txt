@@ -1,0 +1,83 @@
+codigo index.html
+<!DOCTYPE html><!-- no es casesensitive no reconoce mayus y minusculas
+    html es un lenguaje de etiquetado o marcado
+     que tipo de documento es esto es informacion para el navegador
+     le esta diciendo es un documento html:-->
+<html lang="en">
+<head><!--etiqueta : informacion para el navegador-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera pagina web de prueba</title>
+</head>
+<body>
+    <!-- Esto es un comentario del tamaño de H1-->>
+    <h1>Blog personal de programacion</h1>
+    <p>Lorem ipsum dolor sit amet consectetur
+         adipisicing elit. Nesciunt quidem eum
+          eaque mollitia aliquam, excepturi 
+          molestiae cumque tempore eos ipsam.
+           Possimus illum animi aliquid incidunt 
+           nesciunt, voluptatem quaerat deleniti
+            voluptate.</p>
+            <p>Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Nesciunt quidem eum
+                 eaque mollitia aliquam, excepturi 
+                 molestiae cumque tempore eos ipsam.
+                  Possimus illum animi aliquid incidunt 
+                  nesciunt, voluptatem quaerat deleniti
+                   voluptate.</p>
+    <table>
+        <tr><!-- una fila-->>
+            <th>Encabezado 1</th><!-- Encabezado de columna de las de abajo-->>
+            <th>Encabezado 2</th>
+        </tr>
+        <tr>
+            <td>Dato 1</td>
+            <td>Dato 2</td>
+        </tr>
+        <tr>
+            <td>fila 2 campo 1</td>
+            <td>fila 2 campo 2</td>
+        </tr>
+    </table>
+</body>
+</html>
+
+----------------------------------------------
+de mi pagina principal la redirijo a mi pagina2
+
+codigo index.html
+<!DOCTYPE html><!-- no es casesensitive no reconoce mayus y minusculas
+    html es un lenguaje de etiquetado o marcado
+     que tipo de documento es esto es informacion para el navegador
+     le esta diciendo es un documento html:-->
+<html lang="en">
+<head><!--etiqueta : informacion para el navegador-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera pagina web de prueba</title>
+</head>
+<body>
+    <h1>Mi pagina web</h1>
+    <p>Texto descriptivo</p>
+    <a href="./otrapagina.html">Ir a la otra pagina</a>
+</body>
+</html>
+
+codigo otrapagina.html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Otra pagina propia</title>
+</head>
+<body>
+    <h2>Esto es la otra pagina</h2>
+</body>
+</html>
+
+--------------------------------------
